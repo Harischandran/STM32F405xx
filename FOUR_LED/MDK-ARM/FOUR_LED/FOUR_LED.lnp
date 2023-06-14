@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp
+"four_led\startup_stm32f405xx.o"
+"four_led\main.o"
+"four_led\stm32f4xx_it.o"
+"four_led\stm32f4xx_hal_msp.o"
+"four_led\stm32f4xx_hal_tim.o"
+"four_led\stm32f4xx_hal_tim_ex.o"
+"four_led\stm32f4xx_hal_rcc.o"
+"four_led\stm32f4xx_hal_rcc_ex.o"
+"four_led\stm32f4xx_hal_flash.o"
+"four_led\stm32f4xx_hal_flash_ex.o"
+"four_led\stm32f4xx_hal_flash_ramfunc.o"
+"four_led\stm32f4xx_hal_gpio.o"
+"four_led\stm32f4xx_hal_dma_ex.o"
+"four_led\stm32f4xx_hal_dma.o"
+"four_led\stm32f4xx_hal_pwr.o"
+"four_led\stm32f4xx_hal_pwr_ex.o"
+"four_led\stm32f4xx_hal_cortex.o"
+"four_led\stm32f4xx_hal.o"
+"four_led\stm32f4xx_hal_exti.o"
+"four_led\system_stm32f4xx.o"
+--strict --scatter "FOUR_LED\FOUR_LED.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "FOUR_LED.map" -o FOUR_LED\FOUR_LED.axf
