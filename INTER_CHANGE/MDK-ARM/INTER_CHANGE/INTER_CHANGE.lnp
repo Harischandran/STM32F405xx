@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp
+"inter_change\startup_stm32f405xx.o"
+"inter_change\main.o"
+"inter_change\stm32f4xx_it.o"
+"inter_change\stm32f4xx_hal_msp.o"
+"inter_change\stm32f4xx_hal_tim.o"
+"inter_change\stm32f4xx_hal_tim_ex.o"
+"inter_change\stm32f4xx_hal_rcc.o"
+"inter_change\stm32f4xx_hal_rcc_ex.o"
+"inter_change\stm32f4xx_hal_flash.o"
+"inter_change\stm32f4xx_hal_flash_ex.o"
+"inter_change\stm32f4xx_hal_flash_ramfunc.o"
+"inter_change\stm32f4xx_hal_gpio.o"
+"inter_change\stm32f4xx_hal_dma_ex.o"
+"inter_change\stm32f4xx_hal_dma.o"
+"inter_change\stm32f4xx_hal_pwr.o"
+"inter_change\stm32f4xx_hal_pwr_ex.o"
+"inter_change\stm32f4xx_hal_cortex.o"
+"inter_change\stm32f4xx_hal.o"
+"inter_change\stm32f4xx_hal_exti.o"
+"inter_change\system_stm32f4xx.o"
+--strict --scatter "INTER_CHANGE\INTER_CHANGE.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "INTER_CHANGE.map" -o INTER_CHANGE\INTER_CHANGE.axf
