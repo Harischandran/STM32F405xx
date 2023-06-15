@@ -2,4 +2,5 @@
 # To turn on and off the led
 # To turn on the led sequentially with its respective switches
 # To turn on the led serially using a single switch
-# To turn on and off the led using the interlock concept
+# To turn on and off the led using the interlocking concept
+# To turn on and off the led using the interchange concept
