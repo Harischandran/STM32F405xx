@@ -4,3 +4,4 @@
 # To turn on the led serially using a single switch
 # To turn on and off the led using the interlocking concept
 # To turn on and off the led using the interchange concept
+#To test the timers with the led with delay(1s,0.5s,2s)
