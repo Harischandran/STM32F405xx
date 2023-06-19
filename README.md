@@ -5,3 +5,4 @@
 # To turn on and off the led using the interlocking concept
 # To turn on and off the led using the interchange concept
 # To test the timers with delay(1s,0.5s,2s)
+# To test the adc synchronized with a timer (adc 1 and timer 1 is used here, calibration is still needed but works)
